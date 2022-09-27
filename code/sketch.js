@@ -13,6 +13,7 @@ let cnv = createCanvas(500, 500);
   for(let i=0;i<= 40; i++){
      Tri[i]= new flower(random(width),random(height),random(360),random(10)/10,random(1,20)/10);
   }
+  //_xpos,_ypos,_rot,_size,_speed
     
 }
 
@@ -43,6 +44,15 @@ function draw() {
     
   }
   
+ // Tri[0].display();
+  //Tri[0].move();
+ // Tri[1].display();
+ // Tri[1].move();
+ // Tri[2].display();
+ // Tri[2].move();
+  //Tri[3].display();
+  //Tri[3].move();
+ 
 }
 
 
